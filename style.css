@@ -9,10 +9,9 @@ h1{
 .profile-name{
     color: orangered;
 }
-.top-banner{
+section{
     display: flex;
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
+    
 }
 .half-width{
     width: 50%;
@@ -28,4 +27,19 @@ h1{
     color: white;
     padding: 8px 30px;
     border-radius: 5px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 18em;
+}
+.dream-big img{
+    height: 900px;
+    width: auto;
+    padding-left: 400px;
 }
